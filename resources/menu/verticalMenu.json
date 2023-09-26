@@ -1,0 +1,65 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "menuHeader": "Lead Management"
+    },
+    {
+      "name": "Lead",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "lead",
+      "submenu": [
+        {
+          "url": "/lead/create",
+          "name": "Create lead",
+          "slug": "lead.create"
+        },
+        {
+          "url": "/leads",
+          "name": "Leads",
+          "slug": "leads.index"
+        }
+      ]
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "user",
+      "submenu": [
+        {
+          "url": "/user/create",
+          "name": "Add Create",
+          "slug": "users.create"
+        },
+        {
+          "url": "/user/list",
+          "name": "List",
+          "slug": "users.index"
+        }
+      ]
+    },
+    {
+      "name": "Invoices",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "invoices",
+      "submenu": [
+        {
+          "url": "/invoices/create",
+          "name": "Add invoice",
+          "slug": "invoices.create"
+        },
+        {
+          "url": "/invoices",
+          "name": "list invoice",
+          "slug": "invoices.index"
+        }
+      ]
+    }
+    
+  ]
+}
